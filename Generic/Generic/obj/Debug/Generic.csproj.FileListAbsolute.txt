@@ -1,1 +1,12 @@
 E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\Generic.exe.config
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\Generic.exe
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\Generic.pdb
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\CommonMethod.dll
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GenericMethod.dll
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\CommonMethod.pdb
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GenericMethod.pdb
+E:\专业学习\C#\Generic\Generic\Generic\obj\Debug\Generic.csprojResolveAssemblyReference.cache
+E:\专业学习\C#\Generic\Generic\Generic\obj\Debug\Generic.exe
+E:\专业学习\C#\Generic\Generic\Generic\obj\Debug\Generic.pdb
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GnericClass.dll
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GnericClass.pdb

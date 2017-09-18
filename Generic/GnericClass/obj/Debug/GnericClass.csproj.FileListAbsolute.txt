@@ -1,0 +1,4 @@
+E:\专业学习\C#\Generic\Generic\GnericClass\bin\Debug\GnericClass.dll
+E:\专业学习\C#\Generic\Generic\GnericClass\bin\Debug\GnericClass.pdb
+E:\专业学习\C#\Generic\Generic\GnericClass\obj\Debug\GnericClass.dll
+E:\专业学习\C#\Generic\Generic\GnericClass\obj\Debug\GnericClass.pdb

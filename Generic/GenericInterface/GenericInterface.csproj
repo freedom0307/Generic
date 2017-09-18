@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40E5FF52-D23B-473E-B3D4-756308E64153}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{F07E695C-3590-4015-8758-064A9558098F}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Generic</RootNamespace>
-    <AssemblyName>Generic</AssemblyName>
+    <RootNamespace>GenericInterface</RootNamespace>
+    <AssemblyName>GenericInterface</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,29 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="GenericInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CommonMethod\CommonMethod.csproj">
-      <Project>{e723f5ee-3ced-4162-bf64-403676a2cf90}</Project>
-      <Name>CommonMethod</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GenericInterface\GenericInterface.csproj">
-      <Project>{f07e695c-3590-4015-8758-064a9558098f}</Project>
-      <Name>GenericInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GenericMethod\GenericMethod.csproj">
-      <Project>{bc9bd793-3e3b-4063-9bc9-505a156afc43}</Project>
-      <Name>GenericMethod</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GnericClass\GenericClass.csproj">
-      <Project>{3415a265-070f-44de-ae03-c6dba79ad4fa}</Project>
-      <Name>GenericClass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

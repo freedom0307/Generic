@@ -1,0 +1,4 @@
+E:\专业学习\C#\Generic\Generic\CommonMethod\bin\Debug\CommonMethod.dll
+E:\专业学习\C#\Generic\Generic\CommonMethod\bin\Debug\CommonMethod.pdb
+E:\专业学习\C#\Generic\Generic\CommonMethod\obj\Debug\CommonMethod.dll
+E:\专业学习\C#\Generic\Generic\CommonMethod\obj\Debug\CommonMethod.pdb

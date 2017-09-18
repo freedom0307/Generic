@@ -1,0 +1,5 @@
+E:\专业学习\C#\Generic\Generic\GenericInterface\bin\Debug\GenericInterface.dll
+E:\专业学习\C#\Generic\Generic\GenericInterface\bin\Debug\GenericInterface.pdb
+E:\专业学习\C#\Generic\Generic\GenericInterface\obj\Debug\GenericInterface.csprojResolveAssemblyReference.cache
+E:\专业学习\C#\Generic\Generic\GenericInterface\obj\Debug\GenericInterface.dll
+E:\专业学习\C#\Generic\Generic\GenericInterface\obj\Debug\GenericInterface.pdb
