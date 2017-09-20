@@ -8,6 +8,8 @@ using GenericMethod;
 using System.Diagnostics;
 using GnericClass;
 using GenericInterface;
+using Model;
+using GenericConstraint;
 
 namespace Generic
 {
@@ -20,6 +22,11 @@ namespace Generic
         public static string sValue = "456";
         public static DateTime dValue = DateTime.Now;
         public static object oValue = new object();
+        public static string[] _str = new string[] {"1231","23534","高中生","大邪神" };//值类型
+        public static People _People = new People() { _id = 13243345, _number = "SAADGJHKHK" };//类
+        public static Chinese _Chinese = new Chinese() { _id = 2354456, _fee = 12800 };//类和接口
+        public static DefaultConst _DefaultConst = new DefaultConst();
+        public static DefaultConstParameter _DefaultConstParameter = new DefaultConstParameter();
         public static void Main(string[] args)
         {
             {
@@ -90,8 +97,51 @@ namespace Generic
             {
                 Console.WriteLine("*********************************");
 
+                Constraint.ShowConstraintStruct(iValue);
+                Constraint.ShowConstraintClass(_str);
+                Constraint.ShowConstraintNew(_DefaultConst);
+                Constraint.ShowConstraintBaseClass(_People);
+                
+                Constraint.ShowConstraintInterface(_Chinese);
+                Constraint.ShowConstraintBaseClass(_Chinese);
             }
         }
-       
+        public class Chinese : People, IDdance
+        {
+            public double _fee
+            {
+                get;set;
+            }
+
+            public void Ballet()
+            {
+                Console .WriteLine ("中国人跳芭蕾舞！");
+            }
+
+            public void LatinDancing()
+            {
+                Console.WriteLine("中国人跳拉丁舞！");
+            }
+
+            public void PoleDancing()
+            {
+                Console.WriteLine("中国人跳钢管舞！");
+            }
+        }
+        public class DefaultConst
+        {
+            public DefaultConst ()
+            {
+                Console.WriteLine("调用了共有的无参的构造函数！");
+            }
+        }
+        public class DefaultConstParameter
+        {
+            public DefaultConstParameter(int a=1000) 
+            {
+                Console.WriteLine("调用了共有的有参的构造函数！，参数为{0}",a );
+            }
+        }
+
     }
 }

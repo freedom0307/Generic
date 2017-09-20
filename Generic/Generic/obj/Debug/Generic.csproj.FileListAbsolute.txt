@@ -10,3 +10,7 @@ E:\专业学习\C#\Generic\Generic\Generic\obj\Debug\Generic.exe
 E:\专业学习\C#\Generic\Generic\Generic\obj\Debug\Generic.pdb
 E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GnericClass.dll
 E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GnericClass.pdb
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GenericConstraint.dll
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GenericInterface.dll
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GenericConstraint.pdb
+E:\专业学习\C#\Generic\Generic\Generic\bin\Debug\GenericInterface.pdb

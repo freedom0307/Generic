@@ -53,6 +53,10 @@
       <Project>{e723f5ee-3ced-4162-bf64-403676a2cf90}</Project>
       <Name>CommonMethod</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GenericConstraint\GenericConstraint.csproj">
+      <Project>{d0f08784-4e93-482f-b118-b3e9f2052232}</Project>
+      <Name>GenericConstraint</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GenericInterface\GenericInterface.csproj">
       <Project>{f07e695c-3590-4015-8758-064a9558098f}</Project>
       <Name>GenericInterface</Name>
